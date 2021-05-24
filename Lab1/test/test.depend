@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1618309872 source:/home/user/Projects/test/main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"UsetInterface.h"
+	"Database.h"
+
+1616706355 /home/user/Projects/test/include/MalfunctionType.h
+	<string>
+	<vector>
+
+1616706423 source:/home/user/Projects/test/src/MalfunctionType.cpp
+	"MalfunctionType.h"
+	<string>
+	<iostream>
+	<vector>
+
+1616705982 /home/user/Projects/test/include/UsetInterface.h
+	"Database.h"
+	<string>
+	<vector>
+
+1616705988 /home/user/Projects/test/include/Database.h
+	<string>
+	<vector>
+	<iostream>
+	"MalfunctionType.h"
+
+1618944430 source:/home/user/Projects/test/src/Database.cpp
+	<string>
+	<vector>
+	<stdexcept>
+	<fstream>
+	"Database.h"
+
+1618377707 source:/home/user/Projects/test/src/UserInterface.cpp
+	<iostream>
+	<stdexcept>
+	<string>
+	"UsetInterface.h"
+	"Database.h"
+
